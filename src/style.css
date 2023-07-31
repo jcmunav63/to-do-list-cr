@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, sans-serif;
+  color: rgb(175, 175, 175);
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 15px;
+  width: 95%;
+  margin: 0;
+}
+
+p {
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.title {
+  color: rgb(146, 146, 146);
+}
+
+.title:hover {
+  color: crimson;
+}
+
+.todo-container {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 40px;
+  border: 1px solid #ccc;
+  box-shadow: 4px 4px #ccc;
+  box-sizing: border-box;
+}
+
+.input-container {
+  width: 92%;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #929292;
+  box-sizing: border-box;
+}
+
+.input-container input {
+  border: none;
+  padding-right: 15px;
+  width: 80%;
+  color: rgb(175, 175, 175);
+  font-size: 18px;
+}
+
+#task-input:focus {
+  outline-color: #929292;
+  background-color: rgb(227, 237, 255);
+}
+
+.input-container input::placeholder {
+  font-style: italic;
+  color: rgb(175, 175, 175);
+}
+
+.input-container button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  float: right;
+  font-size: 20px;
+  color: rgb(146, 146, 146);
+}
+
+.task-row {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #929292;
+  display: flex;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.task-row input[type="checkbox"] {
+  margin-right: 10px;
+  left: 0;
+  width: 16px;
+  float: left;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.task-index {
+  color: #000;
+  display: flex;
+}
+
+.task-text {
+  width: 290px;
+  margin-right: 44px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: rgb(146, 146, 146);
+  font-size: 16px;
+}
+
+.task-text:focus {
+  background-color: rgb(255, 255, 175);
+}
+
+.task-row .more-icon {
+  float: right;
+  right: 0;
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  padding-top: 4px;
+  color: rgb(115, 115, 115);
+}
+
+.task-row .more-icon::before {
+  content: "⋮";
+}
+
+.task-row .delete-icon {
+  cursor: pointer;
+  color: rgb(115, 115, 115);
+  font-size: 22px;
+}
+
+.hide {
+  display: none;
+}
+
+.completed-task {
+  text-decoration: line-through;
+}
+
+#erase-all {
+  border: none;
+  background-color: #f1f1f1;
+  color: rgb(146, 146, 146);
+  font-style: italic;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+
+#erase-all:hover {
+  background-color: rgb(227, 237, 255);
+  color: rgb(5, 50, 250);
+  font-weight: 600;
+}
