@@ -15,13 +15,7 @@ module.exports = {
   ],
   output: {
     path: path.resolve(__dirname, 'dist'),
-    // filename: 'bundle.js',
-    filename: '[name].js',
-    // chunkFilename: (pathData) => {
-    //  return pathData.chunk.name === 'main' ? '[name].js' : '[name]/[name].js';
-    // },
-    // chunkFilename: 'static/js/[name].chunk.js',
-    // path: path.resolve(__dirname, 'dist'),
+    filename: '[name].bundle.js',
     clean: true,
   },
   optimization: {

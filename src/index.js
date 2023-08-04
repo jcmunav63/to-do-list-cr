@@ -28,11 +28,14 @@ const displayTaskElement = (task) => {
 
   const moreIcon = document.createElement('span');
   moreIcon.classList.add('more-icon');
+  moreIcon.classList.add('material-symbols-sharp');
+  moreIcon.innerHTML = 'more_vert';
 
   const deleteIcon = document.createElement('span');
   deleteIcon.classList.add('delete-icon');
+  deleteIcon.classList.add('material-symbols-sharp');
   deleteIcon.classList.add('hide');
-  deleteIcon.innerHTML = '&#128465;';
+  deleteIcon.innerHTML = 'delete';
 
   taskItem.appendChild(taskIndex);
   taskItem.appendChild(checkbox);

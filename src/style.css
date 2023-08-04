@@ -122,19 +122,16 @@ p {
   right: 0;
   margin-right: 15px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 20px;
   padding-top: 4px;
   color: rgb(115, 115, 115);
-}
-
-.task-row .more-icon::before {
-  content: "⋮";
 }
 
 .task-row .delete-icon {
   cursor: pointer;
   color: rgb(115, 115, 115);
-  font-size: 22px;
+  font-size: 20px;
+  margin-top: 4px;
 }
 
 .hide {
@@ -162,4 +159,12 @@ p {
   background-color: rgb(227, 237, 255);
   color: rgb(5, 50, 250);
   font-weight: 600;
+}
+
+.material-symbols-sharp {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
 }

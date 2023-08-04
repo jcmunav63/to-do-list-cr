@@ -1,7 +1,7 @@
 {
   "name": "to-do-list-cr",
   "version": "1.0.0",
-  "description": "<a name=\"readme-top\"></a>",
+  "description": "TO DO LIST</a>",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.8.1",
